@@ -126,3 +126,7 @@ function acumulate() {
 function windowResized() {
   resizeCanvas(window.innerWidth - 10, window.innerHeight - 8);
 }
+
+function mousePressed() {
+  userStartAudio();
+}
